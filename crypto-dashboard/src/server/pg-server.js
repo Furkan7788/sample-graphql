@@ -80,6 +80,6 @@ const resolvers = {
 };
 
 const houston = new ApolloServer({ typeDefs, resolvers });
-houston.listen({ port: 4445 }).then(({ url }) => {
-    console.log(`Houston ${url} kanalı üzerinden dinlemede`);
+houston.listen({port: 4445 }).then(({ url }) => {
+    console.log(`Houston ${url}  kanalı üzerinden dinlemede`);
 });
